@@ -1,5 +1,3 @@
-# ReduxCart
-
 # ReduxCart — Cart project with Redux & Redux Toolkit
 
 A small demo shop that showcases how to build and manage a shopping cart with Redux Toolkit and React. It demonstrates modern Redux patterns (slices, async thunks), global UI state for notifications, and cart persistence via HTTP. To support the database, I used Firebase
