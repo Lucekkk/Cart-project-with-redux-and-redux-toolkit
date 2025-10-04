@@ -5,7 +5,7 @@
 A small demo shop that showcases how to build and manage a shopping cart with Redux Toolkit and React. It demonstrates modern Redux patterns (slices, async thunks), global UI state for notifications, and cart persistence via HTTP. To support the database, I used Firebase
 
 - Live stack: React 18, Redux Toolkit, React-Redux, Fetch API, CSS
-- Languages in this repo: JavaScript (≈71.6%), CSS (≈18.2%), HTML (≈10.2%)
+
 
 ## Screenshots
 
@@ -24,26 +24,6 @@ A small demo shop that showcases how to build and manage a shopping cart with Re
 - Global notifications for async operations (success, pending, error)
 - Fetch-and-persist cart state via async actions
 - Clean Redux Toolkit architecture with small, focused slices
-
-## Project structure
-
-```
-src/
-├─ App.js
-├─ index.js
-├─ index.css
-├─ components/
-│  ├─ Cart/
-│  ├─ Layout/
-│  ├─ Shop/
-│  └─ UI/
-└─ store/
-   ├─ index.js![Uploading ad05d614-fe6c-42ba-8668-94bff4e5e962.png…]()
-
-   ├─ cart-slice.js
-   ├─ ui-slice.js
-   └─ cart-actions.js
-```
 
 
 
